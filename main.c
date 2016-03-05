@@ -83,7 +83,7 @@ void menuPrincipal(){
 }
 
     // Inserindo valores de teste
-    void inserirVTeste(){   // TODO: Remover
+    void inserirVTeste(){   // TODO: Remover esta função 
         int n;
         for(n=0 ; n<20 ; n++){
             _conjunto1 = inserir(_conjunto1, n*2);
