@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1457127160 source:e:\uni\ifb\3ºsemestre\estrutura de dados\trabduplacamilu\bibconjunto.c
+	<stdlib.h>
+	<stdio.h>
+	"conjuntos.h"
+
+1457118170 e:\uni\ifb\3ºsemestre\estrutura de dados\trabduplacamilu\bibconjunto.h
+
+1457128060 source:e:\uni\ifb\3ºsemestre\estrutura de dados\trabduplacamilu\main.c
+	<stdio.h>
+	<stdlib.h>
+	"conjuntos.h"
+
+1457128770 e:\uni\ifb\3ºsemestre\estrutura de dados\trabduplacamilu\conjuntos.h
+
+1457129220 source:e:\uni\ifb\3ºsemestre\estrutura de dados\trabduplacamilu\conjuntos.c
+	<stdlib.h>
+	<stdio.h>
+	"conjuntos.h"
+
