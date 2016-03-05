@@ -63,7 +63,7 @@ Conjunto* intersectaConjuntos (Conjunto *c1, Conjunto *c2);
 /// Objetivo:   Unir dois Conjuntos
 /// Parametros: Conjunto *c1, Conjunto *c2
 /// Retorno:    Lista encadeada de inteiros contendo a união dos Conjuntos
-///             passados por parametro
+///          .  passados por parametro
 Conjunto* unirConjuntos (Conjunto *c1, Conjunto *c2);
 
 #endif // ConjuntoS_H_INCLUDED
