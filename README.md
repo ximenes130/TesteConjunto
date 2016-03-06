@@ -7,5 +7,5 @@ Escrevendo qq coisa só para testar a ferramenta
 
 - [x] tarefa 1
 - [x] tarefa 12
-- [ ] tarefa 3
+- [x] tarefa 3
 - [ ] tarefa 4
