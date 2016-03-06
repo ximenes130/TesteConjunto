@@ -5,7 +5,7 @@
 //      Luiz Eduardo Ximenes Neto
 //      Camila Ribeiro Rodrigues
 //
-//  Programa com o intuido de exibir informações
+//  Programa com o objetivo de exibir informaÃ§Ãµes
 //
 //
 
@@ -45,7 +45,7 @@ void executaAcao(int n){
         imprimeConjunto(_conjunto2);
 
     }else if(n == 6){       // Verificar igualdade
-        printf("Os conjuntos%s são iguais",verificaIgualdade(_conjunto1,_conjunto2)?"":" não");
+        printf("Os conjuntos%s sÃ£o iguais",verificaIgualdade(_conjunto1,_conjunto2)?"":" nÃ£o");
 
     }else if(n == 7){       // Listar conjuntos
         system("cls");
@@ -55,7 +55,7 @@ void executaAcao(int n){
 void menuPrincipal(){
     int controle = 1;
     do{
-        // Exibe um menu muito estiloso, merece até oscar
+        // Exibe um menu muito estiloso, merece atÃ© oscar
         printf("\n\n");
         printf("\n  _____           _         _  ");
         printf("\n |     |___ ___  |_|_ _ ___| |_ ___ ___ ");
@@ -72,18 +72,18 @@ void menuPrincipal(){
         printf("\n    7) Limpar tela               \n");
         printf("\n    0) Fechar aplicativo  \n\n     ");
 
-        // Lê numero da ação
+        // LÃª numero da aÃ§Ã£o
         fflush(stdin);
         scanf("%d",&controle);
 
-        // Processa opção selecionada
+        // Processa opÃ§Ã£o selecionada
         executaAcao(controle);
 
     }while(controle != 0);
 }
 
     // Inserindo valores de teste
-    void inserirVTeste(){   // TODO: Remover esta função 
+    void inserirVTeste(){   // TODO: Remover esta funÃ§Ã£o 
         int n;
         for(n=0 ; n<20 ; n++){
             _conjunto1 = inserir(_conjunto1, n*2);
